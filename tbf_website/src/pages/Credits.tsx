@@ -22,6 +22,176 @@ export function Credits() {
       name: "Vikram Mehta",
       designation: "Volunteer Coordinator",
       role: "Team Management"
+    },
+    {
+      name: "Ansh Jagota",
+      designation: "Cheif Advisor",
+      role: "Advisory"
+    },
+    {
+      name: "Pavani Mittal",
+      designation: "Director of Logistics",
+      role: "Logistics Management"
+    },
+    {
+      name: "Nitya Singh",
+      designation: "Creative Director",
+      role: "Creative Leadership"
+    },
+    {
+      name: "Sasha Mishra",
+      designation: "Graphics, Social Media",
+      role: "Visual Design & Social Engagement"
+    },
+    {
+      name: "Daksh Thakur",
+      designation: "Graphics",
+      role: "Visual Design"
+    },
+    {
+      name: "Jayesh Banerjee",
+      designation: "Graphics",
+      role: "Visual Design"
+    },
+    {
+      name: "Misha Sarin",
+      designation: "Graphics, PR and Outreach",
+      role: "Visual Design & Public Relations"
+    },
+    {
+      name: "Anshika Sharma",
+      designation: "Logistics",
+      role: "Event Logistics"
+    },
+    {
+      name: "Paridhi Dewan",
+      designation: "Logistics",
+      role: "Event Logistics"
+    },
+    {
+      name: "Tiya Sharma",
+      designation: "Logistics",
+      role: "Event Logistics"
+    },
+    {
+      name: "Angelina Mehra",
+      designation: "Logistics",
+      role: "Event Logistics"
+    },
+    {
+      name: "Ayesha Singh",
+      designation: "Logistics",
+      role: "Event Logistics"
+    },
+    {
+      name: "Devaj Rathore",
+      designation: "Web Ops Manager, Logistics, Content",
+      role: "Web Operations & Content Management"
+    },
+    {
+      name: "Jhanak Goel",
+      designation: "Logistics, Social Media",
+      role: "Event Logistics & Social Engagement"
+    },
+    {
+      name: "Aadya Upadhyaya",
+      designation: "Content",
+      role: "Content Creation"
+    },
+    {
+      name: "Midhuna Rajagopalar",
+      designation: "Content",
+      role: "Content Creation"
+    },
+    {
+      name: "Shreya",
+      designation: "Content, Social Media",
+      role: "Content & Social Engagement"
+    },
+    {
+      name: "Siya Chahal",
+      designation: "Content, Social Media",
+      role: "Content & Social Engagement"
+    },
+    {
+      name: "Palak Garg",
+      designation: "Content, Social Media, PR and Outreach",
+      role: "Content, Public Relations & Outreach"
+    },
+    {
+      name: "Advik Yadav",
+      designation: "Social Media",
+      role: "Social Engagement"
+    },
+    {
+      name: "Gauransh Khurana",
+      designation: "Graphics, Social Media",
+      role: "Visual Design & Social Engagement"
+    },
+    {
+      name: "Kashvi Singh",
+      designation: "Graphics",
+      role: "Visual Design"
+    },
+    {
+      name: "Vishwani Sethia",
+      designation: "Graphics",
+      role: "Visual Design"
+    },
+    {
+      name: "Abeer Gupta",
+      designation: "Unspecified",
+      role: "Unspecified"
+    },
+    {
+      name: "Abhilekh Bakshi",
+      designation: "Unspecified",
+      role: "Unspecified"
+    },
+    {
+      name: "Hanshika",
+      designation: "Unspecified",
+      role: "Unspecified"
+    },
+    {
+      name: "Asmi Singh",
+      designation: "Unspecified",
+      role: "Unspecified"
+    },
+    {
+      name: "Yash Paratap Singh",
+      designation: "Unspecified",
+      role: "Unspecified"
+    },
+    {
+      name: "Adrika Jain",
+      designation: "Unspecified",
+      role: "Unspecified"
+    },
+    {
+      name: "Prachi Kalra",
+      designation: "Unspecified",
+      role: "Unspecified"
+    },
+    {
+      name: "Lekisha Patel",
+      designation: "Unspecified",
+      role: "Unspecified"
+    },
+    {
+      name: "Mishika Oberoi",
+      designation: "Unspecified",
+      role: "Unspecified"
+    },
+    {
+      name: "Nishka Matkar",
+      designation: "Unspecified",
+      role: "Unspecified"
+    },
+    {
+      name: "Kartavya Taneja",
+      designation: "Unspecified",
+      role: "Unspecified"
     }
   ];
 
