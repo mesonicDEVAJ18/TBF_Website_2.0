@@ -1,4 +1,3 @@
-import React from 'react';
 import { Award, Users, Heart, Handshake } from 'lucide-react';
 
 export function Credits() {
@@ -191,6 +190,16 @@ export function Credits() {
     {
       name: "Kartavya Taneja",
       designation: "Unspecified",
+      role: "Unspecified"
+    },
+    {
+      name: "Rohan Singh",
+      designation: "Web Ops",
+      role: "Unspecified"
+    },
+    {
+      name: "Rijul Agarwal",
+      designation: "Web Ops",
       role: "Unspecified"
     }
   ];
