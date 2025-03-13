@@ -1,5 +1,3 @@
-import React from 'react';
-
 export function UpdateCard({ title, content }: { title: string; content: string }) {
   return (
     <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">

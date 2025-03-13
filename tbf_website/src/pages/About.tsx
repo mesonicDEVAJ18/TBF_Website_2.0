@@ -1,5 +1,3 @@
-import React from 'react';
-
 export function About() {
   return (
     <div className="container mx-auto py-16 px-4">

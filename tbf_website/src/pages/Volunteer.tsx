@@ -1,4 +1,3 @@
-import React from 'react';
 import { Calendar, Clock, MapPin, Heart, Users, BookOpen } from 'lucide-react';
 
 export function Volunteer() {

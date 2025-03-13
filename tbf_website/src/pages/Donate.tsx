@@ -1,4 +1,3 @@
-import React from 'react';
 import { Heart, CreditCard, Wallet, Globe } from 'lucide-react';
 
 export function Donate() {

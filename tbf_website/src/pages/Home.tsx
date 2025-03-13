@@ -1,4 +1,3 @@
-import React from 'react';
 import { UpdateCard } from '../components/UpdateCard';
 
 export function Home() {
