@@ -4,7 +4,7 @@ export function Home() {
   const updates = [
     {
       title: "TBF Mumbai",
-      content: "Jean Watson's theory consists of four steps and can apply to the fields of scientific research and medicine alike. At first, the person must gather the data through observation, identification, and literature gathering."
+      content: "Sample text test"
     },
     {
       title: "Graphic Applications",
@@ -48,7 +48,7 @@ export function Home() {
         </div>
       </section>
 
-      <section className="bg-gray-50 py-16 px-4">
+      <section className="bg-grey-50 py-16 px-4">
         <div className="container mx-auto">
           <h2 className="text-4xl font-serif mb-8">Our Initiatives</h2>
           <div className="grid md:grid-cols-2 gap-12">
