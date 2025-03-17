@@ -58,7 +58,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-neutral-100">
+    <div className="min-h-screen bg-yellow-50">
       <Helmet>
         <meta name="description" content={getMetaDescription(currentPage)} />
         <meta name="keywords" content={getMetaKeywords(currentPage)} />

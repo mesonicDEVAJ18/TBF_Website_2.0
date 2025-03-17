@@ -1,4 +1,5 @@
 import { Award, Users, Heart, Handshake } from 'lucide-react';
+import prishasingh from '../assets/credits/pritijainsingh.jpg';
 
 export function Credits() {
   const coreTeam = [
@@ -6,7 +7,7 @@ export function Credits() {
       name: "Prisha Singh",
       designation: "Founder & President",
       role: "Strategic Leadership",
-      image: "/credits/prishasingh.JPG"
+      image: prishasingh
     },
     {
       name: "Rahul Kumar",
