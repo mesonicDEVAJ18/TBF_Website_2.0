@@ -85,7 +85,6 @@ export function Credits() {
   ];  
 
   return (
-    <div className="min-h-screen bg-[#F5F5F4]">
       <div className="container mx-auto py-16 px-4">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-serif mb-4">The People Who Help Us Make It Possible...</h1>
@@ -174,6 +173,5 @@ export function Credits() {
           </div>
         </div>
       </div>
-    </div>
   );
 }
