@@ -12,7 +12,7 @@ export function Contact() {
               <Mail className="text-[#1B4332]" />
               <div>
                 <h3 className="font-medium">Email</h3>
-                <p>info@brijwasifoundation.org</p>
+                <p>the.brijwasi.foundation@gmail.com</p>
               </div>
             </div>
             <div className="flex items-center space-x-3">
