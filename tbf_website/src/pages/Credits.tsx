@@ -1,5 +1,5 @@
 import { Award, Users, Heart, Handshake } from 'lucide-react';
-//import prishasingh from '../assets/credits/prishasingh.jpg';
+import prishasingh from '../assets/credits/prishasingh.jpg';
 //import rahulkumar from '../assets/credits/rahulkumar.jpg';
 //import anitadesai from '../assets/credits/anitadesai.jpg';
 //import vikrammehta from '../assets/credits/vikrammehta.jpg';
@@ -17,7 +17,7 @@ import angelinamehra from '../assets/credits/angelinamehra.jpg';
 import ayeshasingh from '../assets/credits/ayeshasingh.jpg';
 import devajrathore from '../assets/credits/devajrathore.jpg';
 import jhanakgoel from '../assets/credits/jhanakgoel.jpg';
-//import aadyaupadhyaya from '../assets/credits/aadyaupadhyaya.jpg';
+import aadyaupadhya from '../assets/credits/aadyaupadhaya.jpg';
 //import midhunarajagopalar from '../assets/credits/midhunarajagopalar.jpg';
 import shreya from '../assets/credits/shreya.jpg';
 import siyachahal from '../assets/credits/siyachahal.jpg';
@@ -38,11 +38,11 @@ import vishwanisethia from '../assets/credits/vishwanisethia.jpg';
 //import nishkamatkar from '../assets/credits/nishkamatkar.jpg';
 //import kartavyataneja from '../assets/credits/kartavyataneja.jpg';
 //import rohansingh from '../assets/credits/rohansingh.jpg';
-//import rijulagarwal from '../assets/credits/rijulagarwal.jpg';
+import rijulagarwal from '../assets/credits/rijulaggarwal.jpg';
 
 export function Credits() {
   const coreTeam = [
-    { name: "Prisha Singh", designation: "Founder & President", role: "Strategic Leadership", image: "" },
+    { name: "Prisha Singh", designation: "Founder & President", role: "Strategic Leadership", image: prishasingh },
     { name: "Rahul Kumar", designation: "Operations Director", role: "Program Management", image: "" },
     { name: "Anita Desai", designation: "Community Lead", role: "Outreach Coordination", image: "" },
     { name: "Vikram Mehta", designation: "Volunteer Coordinator", role: "Team Management", image: "" },
@@ -60,7 +60,7 @@ export function Credits() {
     { name: "Ayesha Singh", designation: "Logistics", role: "Event Logistics", image: ayeshasingh },
     { name: "Devaj Rathore", designation: "Web Ops Manager, Logistics, Content", role: "Web Operations & Content Management", image: devajrathore },
     { name: "Jhanak Goel", designation: "Logistics, Social Media", role: "Event Logistics & Social Engagement", image: jhanakgoel },
-    { name: "Aadya Upadhyaya", designation: "Content", role: "Content Creation", image: "" },
+    { name: "Aadya Upadhyaya", designation: "Content", role: "Content Creation", image: aadyaupadhya },
     { name: "Midhuna Rajagopalar", designation: "Content", role: "Content Creation", image: "" },
     { name: "Shreya", designation: "Content, Social Media", role: "Content & Social Engagement", image: shreya },
     { name: "Siya Chahal", designation: "Content, Social Media", role: "Content & Social Engagement", image: siyachahal },
@@ -81,7 +81,7 @@ export function Credits() {
     { name: "Nishka Matkar", designation: "Unspecified", role: "Unspecified", image: "" },
     { name: "Kartavya Taneja", designation: "Unspecified", role: "Unspecified", image: "" },
     { name: "Rohan Singh", designation: "Web Ops", role: "Unspecified", image: "" },
-    { name: "Rijul Agarwal", designation: "Web Ops", role: "Unspecified", image: "" }
+    { name: "Rijul Agarwal", designation: "Web Ops", role: "Unspecified", image: rijulagarwal }
   ];  
 
   return (
