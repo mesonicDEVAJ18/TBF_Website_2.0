@@ -21,14 +21,14 @@ export function Footer() {
             <SocialIcon icon={<Mail size={24} />} link="mailto:the.brijwasi.foundation@gmail.com" />
           </div>
         </div>
-        <div className="text-center md:text-right">
-          <h3 className="text-xl font-serif mb-4">Support Us</h3>
-          <div className="flex justify-center md:justify-end">
-            <button className="bg-white text-[#1B4332] px-6 py-2 rounded-full font-medium hover:bg-opacity-90 transition-colors transform hover:scale-105 duration-200">
-              Donate Now
-            </button>
-          </div>
-        </div>
+        <div className="text-center md:text-right flex flex-col md:items-end relative">
+  <h3 className="text-xl font-serif mb-4 md:pr-6">Support Us</h3>
+  <button className="bg-white text-[#1B4332] px-6 py-2 rounded-full font-medium hover:bg-opacity-90 transition-colors transform hover:scale-105 duration-200">
+    Donate Now
+  </button>
+</div>
+
+
       </div>
     </footer>
   );
