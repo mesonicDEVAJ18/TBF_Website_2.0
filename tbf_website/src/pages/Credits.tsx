@@ -1,8 +1,5 @@
 import { Award, Users, Heart, Handshake } from 'lucide-react';
 import prishasingh from '../assets/credits/prishasingh.jpg';
-//import rahulkumar from '../assets/credits/rahulkumar.jpg';
-//import anitadesai from '../assets/credits/anitadesai.jpg';
-//import vikrammehta from '../assets/credits/vikrammehta.jpg';
 import anshjagota from '../assets/credits/anshjagota.jpg';
 import pavanimittal from '../assets/credits/pavanimittal.jpg';
 import nityasingh from '../assets/credits/nityasingh.jpg';
@@ -43,9 +40,6 @@ import rijulagarwal from '../assets/credits/rijulaggarwal.jpg';
 export function Credits() {
   const coreTeam = [
     { name: "Prisha Singh", designation: "Founder & President", role: "Strategic Leadership", image: prishasingh },
-    { name: "Rahul Kumar", designation: "Operations Director", role: "Program Management", image: "" },
-    { name: "Anita Desai", designation: "Community Lead", role: "Outreach Coordination", image: "" },
-    { name: "Vikram Mehta", designation: "Volunteer Coordinator", role: "Team Management", image: "" },
     { name: "Ansh Jagota", designation: "Chief Advisor", role: "Advisory", image: anshjagota },
     { name: "Pavani Mittal", designation: "Director of Logistics", role: "Logistics Management", image: pavanimittal },
     { name: "Nitya Singh", designation: "Creative Director", role: "Creative Leadership", image: nityasingh },
@@ -85,7 +79,6 @@ export function Credits() {
   ];  
 
   return (
-    <div className="min-h-screen bg-[#F5F5F4]">
       <div className="container mx-auto py-16 px-4">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-serif mb-4">The People Who Help Us Make It Possible...</h1>
@@ -174,6 +167,5 @@ export function Credits() {
           </div>
         </div>
       </div>
-    </div>
   );
 }
