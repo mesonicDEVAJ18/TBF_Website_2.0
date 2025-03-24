@@ -40,6 +40,9 @@ import rijulagarwal from '../assets/credits/rijulaggarwal.jpg';
 export function Credits() {
   const coreTeam = [
     { name: "Prisha Singh", designation: "Founder & President", role: "Strategic Leadership", image: prishasingh },
+    { name: "Devaj Rathore", designation: "Web Ops Manager, Logistics, Content", role: "Web Operations & Content Management", image: devajrathore },
+    { name: "Rohan Singh", designation: "Web Ops", role: "Developer", image: "" },
+    { name: "Rijul Agarwal", designation: "Web Ops", role: "Developer", image: rijulagarwal },
     { name: "Ansh Jagota", designation: "Chief Advisor", role: "Advisory", image: anshjagota },
     { name: "Pavani Mittal", designation: "Director of Logistics", role: "Logistics Management", image: pavanimittal },
     { name: "Nitya Singh", designation: "Creative Director", role: "Creative Leadership", image: nityasingh },
@@ -52,7 +55,6 @@ export function Credits() {
     { name: "Tiya Sharma", designation: "Logistics", role: "Event Logistics", image: tiyasharma },
     { name: "Angelina Mehra", designation: "Logistics", role: "Event Logistics", image: angelinamehra },
     { name: "Ayesha Singh", designation: "Logistics", role: "Event Logistics", image: ayeshasingh },
-    { name: "Devaj Rathore", designation: "Web Ops Manager, Logistics, Content", role: "Web Operations & Content Management", image: devajrathore },
     { name: "Jhanak Goel", designation: "Logistics, Social Media", role: "Event Logistics & Social Engagement", image: jhanakgoel },
     { name: "Aadya Upadhyaya", designation: "Content", role: "Content Creation", image: aadyaupadhya },
     { name: "Midhuna Rajagopalar", designation: "Content", role: "Content Creation", image: "" },
@@ -63,19 +65,17 @@ export function Credits() {
     { name: "Gauransh Khurana", designation: "Graphics, Social Media", role: "Visual Design & Social Engagement", image: gauranshkhurana },
     { name: "Kashvi Singh", designation: "Graphics", role: "Visual Design", image: kashvisingh },
     { name: "Vishwani Sethia", designation: "Graphics", role: "Visual Design", image: vishwanisethia },
-    { name: "Abeer Gupta", designation: "Unspecified", role: "Unspecified", image: "" },
-    { name: "Abhilekh Bakshi", designation: "Unspecified", role: "Unspecified", image: "" },
-    { name: "Hanshika", designation: "Unspecified", role: "Unspecified", image: "" },
-    { name: "Asmi Singh", designation: "Unspecified", role: "Unspecified", image: "" },
-    { name: "Yash Pratap Singh", designation: "Unspecified", role: "Unspecified", image: "" },
-    { name: "Adrika Jain", designation: "Unspecified", role: "Unspecified", image: "" },
-    { name: "Prachi Kalra", designation: "Unspecified", role: "Unspecified", image: "" },
-    { name: "Lekisha Patel", designation: "Unspecified", role: "Unspecified", image: "" },
-    { name: "Mishika Oberoi", designation: "Unspecified", role: "Unspecified", image: "" },
-    { name: "Nishka Matkar", designation: "Unspecified", role: "Unspecified", image: "" },
-    { name: "Kartavya Taneja", designation: "Unspecified", role: "Unspecified", image: "" },
-    { name: "Rohan Singh", designation: "Web Ops", role: "Unspecified", image: "" },
-    { name: "Rijul Agarwal", designation: "Web Ops", role: "Unspecified", image: rijulagarwal }
+    { name: "Abeer Gupta", designation: "Member", role: "Volunteer", image: "" },
+    { name: "Abhilekh Bakshi", designation: "Member", role: "Volunteer", image: "" },
+    { name: "Hanshika", designation: "Member", role: "Volunteer", image: "" },
+    { name: "Asmi Singh", designation: "Member", role: "Volunteer", image: "" },
+    { name: "Yash Pratap Singh", designation: "Member", role: "Volunteer", image: "" },
+    { name: "Adrika Jain", designation: "Member", role: "Volunteer", image: "" },
+    { name: "Prachi Kalra", designation: "Member", role: "Volunteer", image: "" },
+    { name: "Lekisha Patel", designation: "Member", role: "Volunteer", image: "" },
+    { name: "Mishika Oberoi", designation: "Member", role: "Volunteer", image: "" },
+    { name: "Nishka Matkar", designation: "Member", role: "Volunteer", image: "" },
+    { name: "Kartavya Taneja", designation: "Member", role: "Volunteer", image: "" }
   ];  
 
   return (
