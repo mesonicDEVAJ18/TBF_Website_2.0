@@ -22,13 +22,16 @@ export function Footer() {
           </div>
         </div>
         <div className="text-center md:text-right flex flex-col md:items-end relative">
-  <h3 className="text-xl font-serif mb-4 md:pr-6">Support Us</h3>
-  <button className="bg-white text-[#1B4332] px-6 py-2 rounded-full font-medium hover:bg-opacity-90 transition-colors transform hover:scale-105 duration-200">
-    Donate Now
-  </button>
-</div>
-
-
+          <h3 className="text-xl font-serif mb-4 md:pr-6">Support Us</h3>
+          <a
+            href="https://milaap.org/fundraisers/support-underprivileged-people-and-animals"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white text-[#1B4332] px-6 py-2 rounded-full font-medium hover:bg-opacity-90 transition-colors transform hover:scale-105 duration-200 text-center"
+          >
+            Donate Now
+          </a>
+        </div>
       </div>
     </footer>
   );

@@ -12,9 +12,14 @@ export function Donate() {
             Support our cause by making a donation to help those in need. Your contribution 
             will directly impact families and communities we serve.
           </p>
-          <button className="w-full bg-[#1B4332] text-white py-3 rounded-lg hover:bg-opacity-90 transition-colors">
+          <a
+            href="https://milaap.org/fundraisers/support-underprivileged-people-and-animals"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full block text-center bg-[#1B4332] text-white py-3 rounded-lg hover:bg-opacity-90 transition-colors"
+          >
             Donate Now
-          </button>
+          </a>
         </div>
         
         <div className="bg-white p-8 rounded-lg shadow-lg">
