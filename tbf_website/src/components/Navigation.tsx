@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Home, Heart, HandHelping, Image, Mail, Globe, Info, Menu, X } from 'lucide-react';
+import { Home, Heart, HandHelping, Image, Mail, Users, Info, Menu, X } from 'lucide-react';
 import Logo from './Logo';
 
 export function Navigation() {
@@ -35,7 +35,7 @@ export function Navigation() {
             <NavLink href="#volunteer" icon={<HandHelping size={18} />} text="Volunteer" />
             <NavLink href="#album" icon={<Image size={18} />} text="Album" />
             <NavLink href="#contact" icon={<Mail size={18} />} text="Contact" />
-            <NavLink href="#credits" icon={<Globe size={18} />} text="Credits" />
+            <NavLink href="#credits" icon={<Users size={18} />} text="Credits" />
           </div>
         </div>
 
@@ -48,7 +48,7 @@ export function Navigation() {
             <MobileNavLink href="#volunteer" icon={<HandHelping size={18} />} text="Volunteer" onClick={toggleMenu} />
             <MobileNavLink href="#album" icon={<Image size={18} />} text="Album" onClick={toggleMenu} />
             <MobileNavLink href="#contact" icon={<Mail size={18} />} text="Contact" onClick={toggleMenu} />
-            <MobileNavLink href="#credits" icon={<Globe size={18} />} text="Credits" onClick={toggleMenu} />
+            <MobileNavLink href="#credits" icon={<Users size={18} />} text="Credits" onClick={toggleMenu} />
           </div>
         </div>
       </div>
