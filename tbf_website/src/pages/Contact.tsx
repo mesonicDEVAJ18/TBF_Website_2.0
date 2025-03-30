@@ -19,13 +19,14 @@ export function Contact() {
               <Phone className="text-[#1B4332]" />
               <div>
                 <h3 className="font-medium">Phone</h3>
-                <p>+91 XXX XXX XXXX</p>
+                <p>+91 989 129 1294</p>
               </div>
             </div>
             <div className="flex items-center space-x-3">
               <MapPin className="text-[#1B4332]" />
               <div>
                 <h3 className="font-medium">Address</h3>
+                <p>Delhi, India</p>
                 <p>Mumbai, Maharashtra, India</p>
               </div>
             </div>

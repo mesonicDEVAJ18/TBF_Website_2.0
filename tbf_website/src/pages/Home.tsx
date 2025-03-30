@@ -12,7 +12,7 @@ export function Home() {
     },
     {
       title: "Recent Initiatives",
-      content: "Our latest food distribution drive reached over 200 families in the Mumbai region. Together, we're making a difference one meal at a time."
+      content: "Our latest food distribution drive reached over 200 families in the Delhi-NCR region. Together, we're making a difference one meal at a time."
     }
   ];
 
