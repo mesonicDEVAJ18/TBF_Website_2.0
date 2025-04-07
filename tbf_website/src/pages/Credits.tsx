@@ -42,11 +42,12 @@ export function Credits() {
     Founder: [
       { name: "Prisha Singh", role: "Founder & President", image: prishasingh },
     ],
-    Advisory:[
-      { name: "Ansh Jagota", role: "Chief Advisor", image: anshjagota }
+    Managers:[
+      { name: "Ansh Jagota", role: "Chief Advisor", image: anshjagota },
+      { name: "Nitya Singh", role: "Creative Director", image: nityasingh },
+      { name: "Devaj Rathore", role: "Web Ops Director", image: devajrathore },
     ],
     "Web Ops": [
-      { name: "Devaj Rathore", role: "Web Ops Director & Content Management", image: devajrathore },
       { name: "Rohan Singh", role: " Web Developer", image: "" },
       { name: "Rijul Agarwal", role: "Web Developer", image: rijulagarwal },
     ],
@@ -80,14 +81,10 @@ export function Credits() {
     ],
     Content: [
       { name: "Aadya Upadhyaya", role: "Content Creation", image: aadyaupadhya },
-      { name: "Devaj Rathore", role: "Web Operations & Content Management", image: devajrathore },
       { name: "Shreya", role: "Content & Social Engagement", image: shreya },
       { name: "Siya Chahal", role: "Content & Social Engagement", image: siyachahal },
       { name: "Midhuna Rajagopalar", role: "Content Creation", image: "" },
       { name: "Palak Garg", role: "Content, Public Relations & Outreach", image: palakgarg }
-    ],
-    "Creative Vision Lead": [
-      { name: "Nitya Singh", role: "Creative Director", image: nityasingh }
     ],
     Volunteers:[
       { name: "Abeer Gupta", role: "Volunteer", image: "" },
