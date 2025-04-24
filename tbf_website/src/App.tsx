@@ -62,6 +62,7 @@ function App() {
       <Helmet>
         <meta name="description" content={getMetaDescription(currentPage)} />
         <meta name="keywords" content={getMetaKeywords(currentPage)} />
+        <link rel="icon" type="image/png" href="/images/logo.png" />
       </Helmet>
       <Navigation />
       {renderPage()}
