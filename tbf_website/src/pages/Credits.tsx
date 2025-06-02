@@ -23,7 +23,7 @@ import gauranshkhurana from '../assets/credits/gauranshkhurana.jpg';
 import kashvisingh from '../assets/credits/kashvisingh.jpg';
 import vishwanisethia from '../assets/credits/vishwanisethia.jpg';
 import rijulagarwal from '../assets/credits/rijulaggarwal.jpg';
-//import midhunarajagopalar from '../assets/credits/midhunarajagopalar.jpg';
+import midhunarajagopalar from '../assets/credits/midhunarajagopalan.jpg';
 //import abeergupta from '../assets/credits/abeergupta.jpg';
 //import abhilekhbakshi from '../assets/credits/abhilekhbakshi.jpg';
 //import hanshika from '../assets/credits/hanshika.jpg';
@@ -32,10 +32,10 @@ import rijulagarwal from '../assets/credits/rijulaggarwal.jpg';
 //import adrikajain from '../assets/credits/adrikajain.jpg';
 //import prachikalra from '../assets/credits/prachikalra.jpg';
 //import lekishapatel from '../assets/credits/lekishapatel.jpg';
-//import mishikaoberoi from '../assets/credits/mishikaoberoi.jpg';
-//import nishkamatkar from '../assets/credits/nishkamatkar.jpg';
+import mishikaoberoi from '../assets/credits/mishikaoberoi.jpg';
+import nishkamatkar from '../assets/credits/nishkamatkar.jpg';
 //import kartavyataneja from '../assets/credits/kartavyataneja.jpg';
-//import rohansingh from '../assets/credits/rohansingh.jpg';
+import rohansingh from '../assets/credits/rohansingh.jpg';
 
 export function Credits() {
   const categories = {
@@ -48,7 +48,7 @@ export function Credits() {
       { name: "Devaj Rathore", role: "Web Ops Director", image: devajrathore },
     ],
     "Web Ops": [
-      { name: "Rohan Singh", role: " Web Developer", image: "" },
+      { name: "Rohan Singh", role: " Web Developer", image: rohansingh },
       { name: "Rijul Agarwal", role: "Web Developer", image: rijulagarwal },
     ],
     Logistics: [
@@ -83,7 +83,7 @@ export function Credits() {
       { name: "Aadya Upadhyaya", role: "Content Creation", image: aadyaupadhya },
       { name: "Shreya", role: "Content & Social Engagement", image: shreya },
       { name: "Siya Chahal", role: "Content & Social Engagement", image: siyachahal },
-      { name: "Midhuna Rajagopalar", role: "Content Creation", image: "" },
+      { name: "Midhuna Rajagopalar", role: "Content Creation", image: midhunarajagopalar },
       { name: "Palak Garg", role: "Content, Public Relations & Outreach", image: palakgarg }
     ],
     Volunteers:[
@@ -95,8 +95,8 @@ export function Credits() {
       { name: "Adrika Jain", role: "Volunteer", image: "" },
       { name: "Prachi Kalra", role: "Volunteer", image: "" },
       { name: "Lekisha Patel", role: "Volunteer", image: "" },
-      { name: "Mishika Oberoi", role: "Volunteer", image: "" },
-      { name: "Nishka Matkar", role: "Volunteer", image: "" },
+      { name: "Mishika Oberoi", role: "Volunteer", image: mishikaoberoi },
+      { name: "Nishka Matkar", role: "Volunteer", image: nishkamatkar },
       { name: "Kartavya Taneja", role: "Volunteer", image: "" } 
     ]
   };
