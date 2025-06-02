@@ -45,7 +45,7 @@ export function Volunteer() {
             </div>
             <div className="flex items-center space-x-2">
               <MapPin className="text-[#1B4332]" />
-              <span>Multiple locations across Mumbai</span>
+              <span>Multiple locations across Delhi-NCR and Mumbai</span>
             </div>
           </div>
         </div>
