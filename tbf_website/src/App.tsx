@@ -74,9 +74,9 @@ function App() {
 function getMetaDescription(page: string): string {
   const descriptions: { [key: string]: string } = {
     home: "The Brijwasi Foundation is dedicated to making lives better through acts of kindness. Join us in our mission to create positive change.",
-    about: "Learn about The Brijwasi Foundation's mission, vision, and impact in creating positive change through sustainable community development.",
-    donate: "Support our cause by donating to The Brijwasi Foundation. Your contribution helps us serve communities in need.",
-    volunteer: "Join The Brijwasi Foundation as a volunteer. Make a difference in your community through various programs and initiatives.",
+    about: "Learn about The Brijwasi Foundation's Impact, mission, vision, and impact in creating positive change through sustainable community development with the goal of meeting SG 2:Zero Hunger.",
+    donate: "Support our cause by donating to The Brijwasi Foundation through Volunteering, in kind and monetarily. Your contribution helps us serve communities in need.",
+    volunteer: "Join The Brijwasi Foundation as a volunteer. Make a difference in your community through various programs and initiatives. Flexible scheduling and multiple locations",
     album: "View our photo gallery showcasing The Brijwasi Foundation's impact and community engagement activities.",
     contact: "Get in touch with The Brijwasi Foundation. We're here to answer your questions and discuss collaboration opportunities.",
     credits: "Meet the team behind The Brijwasi Foundation and learn about our partners and supporters."
@@ -86,13 +86,13 @@ function getMetaDescription(page: string): string {
 
 function getMetaKeywords(page: string): string {
   const keywords: { [key: string]: string } = {
-    home: "NGO, charity, community service, social impact, Mumbai",
-    about: "mission, vision, impact, community development, foundation history",
-    donate: "donations, support, charity, giving, fundraising",
-    volunteer: "volunteering, community service, social work, help",
+    home: "NGO, charity, community service, social impact, health, Delhi, Mumbai",
+    about: "mission, vision, impact, community development, foundation history, SDG2, Zero Hunger",
+    donate: "donations, support, charity, giving, fundraising, Milaap, Volunteer",
+    volunteer: "volunteering, community service, social work, help, flexible, multiple",
     album: "photo gallery, impact, community work, events, activities",
-    contact: "contact information, get in touch, location, email",
-    credits: "team, partners, supporters, acknowledgments"
+    contact: "contact information, get in touch, location, email, instagram, linktree, linkedin, phone numbers",
+    credits: "team, partners, supporters, acknowledgments, thank you, glad"
   };
   return `The Brijwasi Foundation, ${keywords[page] || keywords.home}`;
 }
