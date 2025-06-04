@@ -29,7 +29,7 @@ import midhunarajagopalar from '../assets/credits/midhunarajagopalan.jpg';
 //import hanshika from '../assets/credits/hanshika.jpg';
 //import asmisingh from '../assets/credits/asmisingh.jpg';
 //import yashpratapsingh from '../assets/credits/yashpratapsingh.jpg';
-//import adrikajain from '../assets/credits/adrikajain.jpg';
+import adrikajain from '../assets/credits/adrikajain.jpg';
 //import prachikalra from '../assets/credits/prachikalra.jpg';
 //import lekishapatel from '../assets/credits/lekishapatel.jpg';
 import mishikaoberoi from '../assets/credits/mishikaoberoi.jpg';
@@ -92,7 +92,7 @@ export function Credits() {
       { name: "Hanshika", role: "Volunteer", image: "" },
       { name: "Asmi Singh", role: "Volunteer", image: "" },
       { name: "Yash Pratap Singh", role: "Volunteer", image: "" },
-      { name: "Adrika Jain", role: "Volunteer", image: "" },
+      { name: "Adrika Jain", role: "Volunteer", image: adrikajain },
       { name: "Prachi Kalra", role: "Volunteer", image: "" },
       { name: "Lekisha Patel", role: "Volunteer", image: "" },
       { name: "Mishika Oberoi", role: "Volunteer", image: mishikaoberoi },
