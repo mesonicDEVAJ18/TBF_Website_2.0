@@ -1,103 +1,98 @@
 import { Award, Users, Heart, Handshake } from 'lucide-react';
-import prishasingh from '../assets/credits/prishasingh.jpg';
-import anshjagota from '../assets/credits/anshjagota.jpg';
-import pavanimittal from '../assets/credits/pavanimittal.jpg';
-import nityasingh from '../assets/credits/nityasingh.jpg';
-import sashamishra from '../assets/credits/sashamishra.jpg';
-import dakshthakur from '../assets/credits/dakshthakur.jpg';
-import jayeshbanerjee from '../assets/credits/jayeshbanerjee.jpg';
-import mishasarin from '../assets/credits/mishasarin.jpg';
-import anshikasharma from '../assets/credits/anshikasharma.jpg';
-import paridhidewan from '../assets/credits/paridhidewan.jpg';
-import tiyasharma from '../assets/credits/tiyasharma.jpg';
-import angelinamehra from '../assets/credits/angelinamehra.jpg';
-import ayeshasingh from '../assets/credits/ayeshasingh.jpg';
-import devajrathore from '../assets/credits/devajrathore.jpg';
-import jhanakgoel from '../assets/credits/jhanakgoel.jpg';
-import aadyaupadhya from '../assets/credits/aadyaupadhaya.jpg';
-import shreya from '../assets/credits/shreya.jpg';
-import siyachahal from '../assets/credits/siyachahal.jpg';
-import palakgarg from '../assets/credits/palakgarg.jpg';
-import advikyadav from '../assets/credits/advikyadav.jpg';
-import gauranshkhurana from '../assets/credits/gauranshkhurana.jpg';
-import kashvisingh from '../assets/credits/kashvisingh.jpg';
-import vishwanisethia from '../assets/credits/vishwanisethia.jpg';
-import rijulagarwal from '../assets/credits/rijulaggarwal.jpg';
-import midhunarajagopalar from '../assets/credits/midhunarajagopalan.jpg';
-//import abeergupta from '../assets/credits/abeergupta.jpg';
-//import abhilekhbakshi from '../assets/credits/abhilekhbakshi.jpg';
-//import hanshika from '../assets/credits/hanshika.jpg';
-//import asmisingh from '../assets/credits/asmisingh.jpg';
-//import yashpratapsingh from '../assets/credits/yashpratapsingh.jpg';
-import adrikajain from '../assets/credits/adrikajain.jpg';
-//import prachikalra from '../assets/credits/prachikalra.jpg';
-//import lekishapatel from '../assets/credits/lekishapatel.jpg';
-import mishikaoberoi from '../assets/credits/mishikaoberoi.jpg';
-import nishkamatkar from '../assets/credits/nishkamatkar.jpg';
-//import kartavyataneja from '../assets/credits/kartavyataneja.jpg';
-import rohansingh from '../assets/credits/rohansingh.jpg';
+const prishasingh = "/images/credits/prishasingh.jpg";
+const anshjagota = "/images/credits/anshjagota.jpg";
+const pavanimittal = "/images/credits/pavanimittal.jpg";
+const nityasingh = "/images/credits/nityasingh.jpg";
+const dakshthakur = "/images/credits/dakshthakur.jpg";
+const jayeshbanerjee = "/images/credits/jayeshbanerjee.jpg";
+const mishasarin = "/images/credits/mishasarin.jpg";
+const anshikasharma = "/images/credits/anshikasharma.jpg";
+const paridhidewan = "/images/credits/paridhidewan.jpg";
+const tiyasharma = "/images/credits/tiyasharma.jpg";
+const angelinamehra = "/images/credits/angelinamehra.jpg";
+const ayeshasingh = "/images/credits/ayeshasingh.jpg";
+const devajrathore = "/images/credits/devajrathore.jpg";
+const jhanakgoel = "/images/credits/jhanakgoel.jpg";
+const aadyaupadhya = "/images/credits/aadyaupadhaya.jpg";
+const shreya = "/images/credits/shreya.jpg";
+const siyachahal = "/images/credits/siyachahal.jpg";
+const palakgarg = "/images/credits/palakgarg.jpg";
+const advikyadav = "/images/credits/advikyadav.jpg";
+const gauranshkhurana = "/images/credits/gauranshkhurana.jpg";
+const kashvisingh = "/images/credits/kashvisingh.jpg";
+const vishwanisethia = "/images/credits/vishwanisethia.jpg";
+const rijulagarwal = "/images/credits/rijulaggarwal.jpg";
+const midhunarajagopalar = "/images/credits/midhunarajagopalan.jpg";
+const adrikajain = "/images/credits/adrikajain.jpg";
+const prachikalra = "/images/credits/prachi.jpg";
+const mishikaoberoi = "/images/credits/mishikaoberoi.jpg";
+const nishkamatkar = "/images/credits/nishkamatkar.jpg";
+const kartavyataneja = "/images/credits/kartavyataneja.jpg";
+const rohansingh = "/images/credits/rohansingh.jpg";
+// const abhilekhbakshi = "/images/credits/abhilekhbakshi.jpg";
+// const lekishapatel = "/images/credits/lekishapatel.jpg";
 
 export function Credits() {
   const categories = {
     Founder: [
-      { name: "Prisha Singh", role: "Founder & President", image: prishasingh },
+      { name: "Prisha Singh", role: "Founder & CEO", image: prishasingh },
     ],
-    Managers:[
+    Leadership:[
       { name: "Ansh Jagota", role: "Chief Advisor", image: anshjagota },
-      { name: "Nitya Singh", role: "Creative Director", image: nityasingh },
       { name: "Devaj Rathore", role: "Web Ops Director", image: devajrathore },
+      { name: "Tiya Sharma", role: "Logistics Manager", image: tiyasharma },
+      { name: "Gauransh Khurana", role: "Graphics Manager", image: gauranshkhurana },
+      { name: "Abhilekh Bakshi", role: "Social Media Manager", image: "" },
+      { name: "Nitya Singh", role: "Creative Director", image: nityasingh }
     ],
     "Web Ops": [
+      { name: "Devaj Rathore", role: "Web Ops Director", image: devajrathore },
       { name: "Rohan Singh", role: " Web Developer", image: rohansingh },
-      { name: "Rijul Agarwal", role: "Web Developer", image: rijulagarwal },
+      { name: "Rijul Agarwal", role: "Web Developer", image: rijulagarwal }
     ],
     Logistics: [
-      { name: "Pavani Mittal", role: "Director of Logistics", image: pavanimittal },
+      { name: "Tiya Sharma", role: "Logistics Manager", image: tiyasharma },
+      { name: "Pavani Mittal", role: "Event Logistics", image: pavanimittal },
       { name: "Anshika Sharma", role: "Event Logistics", image: anshikasharma },
       { name: "Paridhi Dewan", role: "Event Logistics", image: paridhidewan },
-      { name: "Tiya Sharma", role: "Event Logistics", image: tiyasharma },
       { name: "Angelina Mehra", role: "Event Logistics", image: angelinamehra },
-      { name: "Jhanak Goel", role: "Event Logistics & Social Engagement", image: jhanakgoel },
+      { name: "Jhanak Goel", role: "Event Logistics", image: jhanakgoel },
       { name: "Ayesha Singh", role: "Event Logistics", image: ayeshasingh },
-      { name: "Devaj Rathore", role: "Web Operations & Content Management", image: devajrathore }
-    ],
-    "Digital Engagement Lead":[
-      { name: "Advik Yadav", role: "Social Engagement", image: advikyadav },
-      { name: "Jhanak Goel", role: "Event Logistics & Social Engagement", image: jhanakgoel },
-      { name: "Sasha Mishra", role: "Visual Design & Social Engagement", image: sashamishra },
-      { name: "Gauransh Khurana", role: "Visual Design & Social Engagement", image: gauranshkhurana },
-      { name: "Shreya", role: "Content & Social Engagement", image: shreya },
-      { name: "Siya Chahal", role: "Content & Social Engagement", image: siyachahal },
-      { name: "Palak Garg", role: "Content, Public Relations & Outreach", image: palakgarg }
+      { name: "Devaj Rathore", role: "Event Logistics", image: devajrathore }
     ],
     Graphics: [
-      { name: "Sasha Mishra", designation: "Graphics, Social Media", role: "Visual Design & Social Engagement", image: sashamishra },
+      { name: "Gauransh Khurana", role: "Graphics Manager", image: gauranshkhurana },
       { name: "Daksh Thakur", role: "Visual Design", image: dakshthakur },
       { name: "Jayesh Banerjee", role: "Visual Design", image: jayeshbanerjee },
-      { name: "Gauransh Khurana", role: "Visual Design & Social Engagement", image: gauranshkhurana },
       { name: "Kashvi Singh", role: "Visual Design", image: kashvisingh },
       { name: "Misha Sarin", role: "Visual Design & Public Relations", image: mishasarin },
       { name: "Vishwani Sethia", role: "Visual Design", image: vishwanisethia },
+      { name: "Kartavya Taneja", role: "Visual Design", image: kartavyataneja }
     ],
     Content: [
+      { name: "Devaj Rathore", role: "Content Creation", image: devajrathore },
       { name: "Aadya Upadhyaya", role: "Content Creation", image: aadyaupadhya },
+      { name: "Shreya", role: "Content Creation", image: shreya },
+      { name: "Siya Chahal", role: "Content Creation", image: siyachahal },
+      { name: "Midhuna Rajagopalan", role: "Content Creation", image: midhunarajagopalar },
+      { name: "Palak Garg", role: "Content Creation", image: palakgarg },
+      { name: "Adrika Jain", role: "Content Creation", image: adrikajain },
+      { name: "Lekisha Patel", role: "Content Creation", image: "" }
+    ],
+    "Social Media" :[
+      { name: "Abhilekh Bakshi", role: "Digital Manager", image: "" },
+      { name: "Prachi Kalra", role: "Social Engagement", image: prachikalra },
+      { name: "Mishika Oberoi", role: "Social Engagement", image: mishikaoberoi },
+      { name: "Nishka Matkar", role: "Social Engagement", image: nishkamatkar },
+      { name: "Advik Yadav", role: "Social Engagement", image: advikyadav },
+      { name: "Jhanak Goel", role: "Event Logistics & Social Engagement", image: jhanakgoel },
       { name: "Shreya", role: "Content & Social Engagement", image: shreya },
       { name: "Siya Chahal", role: "Content & Social Engagement", image: siyachahal },
-      { name: "Midhuna Rajagopalar", role: "Content Creation", image: midhunarajagopalar },
       { name: "Palak Garg", role: "Content, Public Relations & Outreach", image: palakgarg }
     ],
-    Volunteers:[
-      { name: "Abeer Gupta", role: "Volunteer", image: "" },
-      { name: "Abhilekh Bakshi", role: "Volunteer", image: "" },
-      { name: "Hanshika", role: "Volunteer", image: "" },
-      { name: "Asmi Singh", role: "Volunteer", image: "" },
-      { name: "Yash Pratap Singh", role: "Volunteer", image: "" },
-      { name: "Adrika Jain", role: "Volunteer", image: adrikajain },
-      { name: "Prachi Kalra", role: "Volunteer", image: "" },
-      { name: "Lekisha Patel", role: "Volunteer", image: "" },
-      { name: "Mishika Oberoi", role: "Volunteer", image: mishikaoberoi },
-      { name: "Nishka Matkar", role: "Volunteer", image: nishkamatkar },
-      { name: "Kartavya Taneja", role: "Volunteer", image: "" } 
+    "PR and Outreach":[
+      { name: "Misha Sarin", role: "Public Relations & Outreach", image: mishasarin },
+      { name: "Palak Garg", role: "Public Relations & Outreach", image: palakgarg }
     ]
   };
 
