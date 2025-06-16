@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Heart, CreditCard, Wallet, Globe } from 'lucide-react';
 
 export function Donate() {
@@ -53,14 +54,12 @@ export function Donate() {
             <p className="text-gray-600 mb-4">
               Volunteer at TBF and help us bring together initiatives for sustainable impact.
             </p>
-            <button
-              onClick={() => {
-                window.location.hash = 'volunteer';
-              }}
-              className="bg-[#1B4332] text-white px-6 py-2 rounded-lg hover:bg-opacity-90 transition-colors"
+            <Link
+              to="/contact"
+              className="inline-block bg-[#1B4332] text-white px-6 py-2 rounded-lg hover:bg-opacity-90 transition-colors"
             >
-              Join as a Volunteer
-            </button>
+              Contact for Collaboration
+            </Link>
           </div>
 
           <div>
@@ -68,14 +67,12 @@ export function Donate() {
             <p className="text-gray-600 mb-4">
               Partner with us to create meaningful impact through CSR initiatives.
             </p>
-            <button
-              onClick={() => {
-                window.location.hash = 'contact';
-              }}
-              className="bg-[#1B4332] text-white px-6 py-2 rounded-lg hover:bg-opacity-90 transition-colors"
+            <Link
+              to="/contact"
+              className="inline-block bg-[#1B4332] text-white px-6 py-2 rounded-lg hover:bg-opacity-90 transition-colors"
             >
               Contact for Collaboration
-            </button>
+            </Link>
           </div>
         </div>
       </div>
