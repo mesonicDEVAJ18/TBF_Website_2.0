@@ -8,10 +8,10 @@ import { Home } from './pages/Home';
 import { About } from './pages/About';
 import { Donate } from './pages/Donate';
 import { Volunteer } from './pages/Volunteer';
-import { Album } from './pages/Album';
+import Album from './pages/Album';
 import { Contact } from './pages/Contact';
 import { Credits } from './pages/Credits';
-import { Collage } from './pages/Collage'; // Dynamic collage page
+import Collage from './pages/Collage'; // Dynamic collage page
 
 function App() {
   const location = useLocation();
@@ -25,6 +25,8 @@ function App() {
     album: 'Photo Album',
     contact: 'Contact Us',
     credits: 'Credits'
+
+    
   };
 
   const descriptions: { [key: string]: string } = {
@@ -69,6 +71,7 @@ function App() {
         <Route path="/volunteer" element={<Volunteer />} />
         <Route path="/album" element={<Album />} />
         <Route path="/album/:albumId" element={<Collage />} />
+        <Route path="/collage/:photoId" element={<Collage />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/credits" element={<Credits />} />
         <Route path="*" element={<h1 className="text-center mt-10 text-2xl">404 - Page Not Found</h1>} />
