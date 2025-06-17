@@ -1,6 +1,5 @@
 "use client"
-import { useParams, useNavigate } from "react-router-dom"
-import { ArrowLeft, Heart, Share2 } from "lucide-react"
+import { useParams } from "react-router-dom"
 
 interface CollagePhoto {
   id: number
@@ -19,43 +18,17 @@ interface CollageData {
 
 export default function Collage() {
   const { photoId } = useParams<{ photoId: string }>()
-  const navigate = useNavigate()
 
   const collageData: CollageData = {
     "1": {
       title: "Wedding Memories",
       description: "A collection of beautiful moments from the perfect wedding day",
       photos: [
-        {
-          id: 1,
-          src: "/placeholder.svg?height=300&width=400",
-          alt: "Bride getting ready",
-          caption: "Getting ready for the big moment",
-        },
-        {
-          id: 2,
-          src: "/placeholder.svg?height=400&width=300",
-          alt: "Wedding ceremony",
-          caption: "Walking down the aisle",
-        },
-        {
-          id: 3,
-          src: "/placeholder.svg?height=350&width=500",
-          alt: "First kiss",
-          caption: "The first kiss as married couple",
-        },
-        {
-          id: 4,
-          src: "/placeholder.svg?height=400&width=400",
-          alt: "Wedding party",
-          caption: "Celebrating with friends",
-        },
-        {
-          id: 5,
-          src: "/placeholder.svg?height=300&width=450",
-          alt: "Reception dance",
-          caption: "Dancing the night away",
-        },
+        { id: 1, src: "/placeholder.svg?height=300&width=400", alt: "Bride getting ready", caption: "Getting ready for the big moment" },
+        { id: 2, src: "/placeholder.svg?height=400&width=300", alt: "Wedding ceremony", caption: "Walking down the aisle" },
+        { id: 3, src: "/placeholder.svg?height=350&width=500", alt: "First kiss", caption: "The first kiss as married couple" },
+        { id: 4, src: "/placeholder.svg?height=400&width=400", alt: "Wedding party", caption: "Celebrating with friends" },
+        { id: 5, src: "/placeholder.svg?height=300&width=450", alt: "Reception dance", caption: "Dancing the night away" },
         { id: 6, src: "/placeholder.svg?height=450&width=350", alt: "Cake cutting", caption: "Sweet moments together" },
         { id: 7, src: "/placeholder.svg?height=350&width=400", alt: "Bouquet toss", caption: "Passing on the luck" },
         { id: 8, src: "/placeholder.svg?height=400&width=350", alt: "Sunset photos", caption: "Golden hour romance" },
@@ -65,42 +38,12 @@ export default function Collage() {
       title: "Birthday Celebration",
       description: "Sweet sixteen moments filled with joy and laughter",
       photos: [
-        {
-          id: 1,
-          src: "/placeholder.svg?height=350&width=400",
-          alt: "Birthday surprise",
-          caption: "The moment of surprise",
-        },
-        {
-          id: 2,
-          src: "/placeholder.svg?height=400&width=350",
-          alt: "Cake presentation",
-          caption: "The perfect birthday cake",
-        },
-        {
-          id: 3,
-          src: "/placeholder.svg?height=300&width=500",
-          alt: "Friends gathering",
-          caption: "All the best friends together",
-        },
-        {
-          id: 4,
-          src: "/placeholder.svg?height=450&width=300",
-          alt: "Gift opening",
-          caption: "Unwrapping precious gifts",
-        },
-        {
-          id: 5,
-          src: "/placeholder.svg?height=350&width=450",
-          alt: "Party games",
-          caption: "Fun and games all around",
-        },
-        {
-          id: 6,
-          src: "/placeholder.svg?height=400&width=400",
-          alt: "Group photo",
-          caption: "Memories to last forever",
-        },
+        { id: 1, src: "/placeholder.svg?height=350&width=400", alt: "Birthday surprise", caption: "The moment of surprise" },
+        { id: 2, src: "/placeholder.svg?height=400&width=350", alt: "Cake presentation", caption: "The perfect birthday cake" },
+        { id: 3, src: "/placeholder.svg?height=300&width=500", alt: "Friends gathering", caption: "All the best friends together" },
+        { id: 4, src: "/placeholder.svg?height=450&width=300", alt: "Gift opening", caption: "Unwrapping precious gifts" },
+        { id: 5, src: "/placeholder.svg?height=350&width=450", alt: "Party games", caption: "Fun and games all around" },
+        { id: 6, src: "/placeholder.svg?height=400&width=400", alt: "Group photo", caption: "Memories to last forever" },
       ],
     },
     "3": {
@@ -108,41 +51,15 @@ export default function Collage() {
       description: "The culmination of years of hard work and dedication",
       photos: [
         { id: 1, src: "/placeholder.svg?height=400&width=350", alt: "Cap and gown", caption: "Ready for the ceremony" },
-        {
-          id: 2,
-          src: "/placeholder.svg?height=350&width=500",
-          alt: "Walking across stage",
-          caption: "The moment of achievement",
-        },
-        {
-          id: 3,
-          src: "/placeholder.svg?height=450&width=350",
-          alt: "Diploma received",
-          caption: "Dreams becoming reality",
-        },
-        {
-          id: 4,
-          src: "/placeholder.svg?height=300&width=450",
-          alt: "Family celebration",
-          caption: "Proud family moments",
-        },
-        {
-          id: 5,
-          src: "/placeholder.svg?height=400&width=400",
-          alt: "Graduation party",
-          caption: "Celebrating success together",
-        },
-        {
-          id: 6,
-          src: "/placeholder.svg?height=350&width=400",
-          alt: "Future plans",
-          caption: "Looking towards tomorrow",
-        },
+        { id: 2, src: "/placeholder.svg?height=350&width=500", alt: "Walking across stage", caption: "The moment of achievement" },
+        { id: 3, src: "/placeholder.svg?height=450&width=350", alt: "Diploma received", caption: "Dreams becoming reality" },
+        { id: 4, src: "/placeholder.svg?height=300&width=450", alt: "Family celebration", caption: "Proud family moments" },
+        { id: 5, src: "/placeholder.svg?height=400&width=400", alt: "Graduation party", caption: "Celebrating success together" },
+        { id: 6, src: "/placeholder.svg?height=350&width=400", alt: "Future plans", caption: "Looking towards tomorrow" },
       ],
     },
   }
 
-  // Default collage for other photo IDs
   const defaultCollage = {
     title: "More Memories",
     description: "A beautiful collection of related moments",
@@ -160,65 +77,36 @@ export default function Collage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-amber-50 to-green-50">
-      {/* Header */}
-      <div className="sticky top-0 bg-white/80 backdrop-blur-md border-b border-green-200 z-10">
-        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <button
-            onClick={() => navigate("/")}
-            className="flex items-center gap-2 text-green-700 hover:text-green-800 transition-colors duration-200"
-          >
-            <ArrowLeft size={20} />
-            <span className="font-medium">Back to Album</span>
-          </button>
-
-          <div className="flex items-center gap-4">
-            <button className="p-2 text-green-600 hover:text-green-700 hover:bg-green-100 rounded-full transition-all duration-200">
-              <Heart size={20} />
-            </button>
-            <button className="p-2 text-green-600 hover:text-green-700 hover:bg-green-100 rounded-full transition-all duration-200">
-              <Share2 size={20} />
-            </button>
-          </div>
-        </div>
-      </div>
-
       {/* Title Section */}
       <div className="text-center py-12 px-4">
-        <h1 className="text-4xl md:text-6xl font-bold text-green-800 mb-4">{currentCollage.title}</h1>
-        <p className="text-lg text-green-700 max-w-2xl mx-auto leading-relaxed">{currentCollage.description}</p>
+        <h1 className="text-4xl md:text-5xl font-serif font-bold text-green-800 mb-3">{currentCollage.title}</h1>
+        <p className="text-green-700 max-w-2xl mx-auto text-base md:text-lg leading-relaxed">
+          {currentCollage.description}
+        </p>
       </div>
 
-      {/* Photo Collage */}
+      {/* Photo Grid */}
       <div className="container mx-auto px-4 pb-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {currentCollage.photos.map((photo, index) => (
             <div
               key={photo.id}
-              className={`group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105 ${
-                index % 3 === 0 ? "md:col-span-2 lg:col-span-1" : ""
-              } ${index % 5 === 0 ? "lg:row-span-2" : ""}`}
+              className={`group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-500 ${
+                index % 5 === 0 ? "lg:row-span-2" : ""
+              }`}
             >
               <img
-                src={photo.src || "/placeholder.svg"}
+                src={photo.src}
                 alt={photo.alt}
                 className="w-full h-full object-cover min-h-[250px]"
               />
-
-              {/* Caption Overlay */}
-              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                <p className="text-white text-sm md:text-base font-medium">{photo.caption}</p>
+              <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/60 to-transparent text-white p-4 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                <p className="text-sm md:text-base font-medium">{photo.caption}</p>
               </div>
-
-              {/* Hover Border */}
-              <div className="absolute inset-0 border-4 border-green-300 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute inset-0 border-4 border-green-200 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </div>
           ))}
         </div>
-      </div>
-
-      {/* Footer */}
-      <div className="text-center py-12 px-4 border-t border-green-200">
-        <p className="text-green-600 text-lg">Reliving precious moments, one photo at a time.</p>
       </div>
     </div>
   )
