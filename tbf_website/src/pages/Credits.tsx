@@ -29,8 +29,8 @@ const mishikaoberoi = "/images/credits/mishikaoberoi.jpg";
 const nishkamatkar = "/images/credits/nishkamatkar.jpg";
 const kartavyataneja = "/images/credits/kartavyataneja.jpg";
 const rohansingh = "/images/credits/rohansingh.jpg";
-// const abhilekhbakshi = "/images/credits/abhilekhbakshi.jpg";
-// const lekishapatel = "/images/credits/lekishapatel.jpg";
+const abhilekhbakshi = "/images/credits/abhilekhbakshi.jpg";
+const lekishapatel = "/images/credits/lekishapatel.jpg";
 
 export function Credits() {
   const categories = {
@@ -42,7 +42,7 @@ export function Credits() {
       { name: "Devaj Rathore", role: "Web Ops Director", image: devajrathore },
       { name: "Tiya Sharma", role: "Logistics Manager", image: tiyasharma },
       { name: "Gauransh Khurana", role: "Graphics Manager", image: gauranshkhurana },
-      { name: "Abhilekh Bakshi", role: "Social Media Manager", image: "" },
+      { name: "Abhilekh Bakshi", role: "Social Media Manager", image: abhilekhbakshi },
       { name: "Nitya Singh", role: "Creative Director", image: nityasingh }
     ],
     "Web Ops": [
@@ -77,10 +77,10 @@ export function Credits() {
       { name: "Midhuna Rajagopalan", role: "Content Creation", image: midhunarajagopalar },
       { name: "Palak Garg", role: "Content Creation", image: palakgarg },
       { name: "Adrika Jain", role: "Content Creation", image: adrikajain },
-      { name: "Lekisha Patel", role: "Content Creation", image: "" }
+      { name: "Lekisha Patel", role: "Content Creation", image: lekishapatel }
     ],
     "Social Media" :[
-      { name: "Abhilekh Bakshi", role: "Digital Manager", image: "" },
+      { name: "Abhilekh Bakshi", role: "Digital Manager", image: abhilekhbakshi },
       { name: "Prachi Kalra", role: "Social Engagement", image: prachikalra },
       { name: "Mishika Oberoi", role: "Social Engagement", image: mishikaoberoi },
       { name: "Nishka Matkar", role: "Social Engagement", image: nishkamatkar },
