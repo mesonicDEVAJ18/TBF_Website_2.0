@@ -4,15 +4,15 @@ export function Home() {
   const updates = [
     {
       title: "TBF Mumbai",
-      content: "Sample text test"
+      content: "The Brijwasi Foundation is based in five major cities, one of them being Mumbai. We conduct drives regularly to feed impoverished children and stray animals. Our latest food drive in this chapter provided food to over 200 families. We’re eradicating hunger in India, one meal, one family, one city at a time. "
     },
     {
-      title: "Graphic Applications",
-      content: "Supporting communities through innovative solutions and sustainable development practices. Join us in our mission to create lasting change."
+      title: "Actually Recruiting",
+      content: "We’re growing, and we need your help. Whether you're a student with a free weekend, a professional with skills to offer, or simply someone with the heart to serve — there’s a place for you at The Brijwasi Foundation."
     },
     {
       title: "Recent Initiatives",
-      content: "Our latest food distribution drive reached over 200 families in the Delhi-NCR region. Together, we're making a difference one meal at a time."
+      content: "Recently, we made a world record by serving over 1.14 lakh meals in under 8 hours, in collaboration with the Robin Hood Army. Last month, we ran a stall at the Millenium School, Noida, partnering with the Kitaab Club to raise funds and donate food. Another recent initiative was a 3 day drive, ‘Nadaaniyan’ in collaboration with Project Sukh, where we distributed over 300 meals. We also hosted a summer camp for the children living in the slums of Delhi, teaching them first aid, conducting a good & bad touch workshop and much more!"
     }
   ];
 

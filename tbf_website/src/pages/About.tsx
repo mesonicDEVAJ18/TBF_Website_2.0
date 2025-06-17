@@ -20,7 +20,7 @@ export function About() {
           <h2 className="text-2xl font-serif mb-6">About Our Founder</h2>
           <p className="text-lg mb-6">
             Our Founder and President, Prisha Singh, aspires to bring a positive change in 
-            society. She is currently in 12th Grade and is dedicated to the commitment of 
+            society. She is currently a student and is dedicated to the commitment of 
             the NGO.
           </p>
           <div className="bg-white p-6 rounded-lg shadow-lg">

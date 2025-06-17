@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Heart, CreditCard, Wallet, Globe } from 'lucide-react';
 
 export function Donate() {
@@ -49,25 +50,33 @@ export function Donate() {
         <h2 className="text-2xl font-serif mb-6">Other Ways to Support</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <div>
-            <h3 className="text-xl font-serif mb-4">Monthly Giving</h3>
+            <h3 className="text-xl font-serif mb-4">Volunteer</h3>
             <p className="text-gray-600 mb-4">
-              Become a monthly donor and help us plan long-term initiatives for sustainable impact.
+              Volunteer at TBF and help us bring together initiatives for sustainable impact.
             </p>
-            <button className="bg-[#1B4332] text-white px-6 py-2 rounded-lg hover:bg-opacity-90 transition-colors">
-              Join Monthly Giving
-            </button>
+            <Link
+              to="/contact"
+              className="inline-block bg-[#1B4332] text-white px-6 py-2 rounded-lg hover:bg-opacity-90 transition-colors"
+            >
+              Contact for Collaboration
+            </Link>
           </div>
+
           <div>
             <h3 className="text-xl font-serif mb-4">Corporate Partnerships</h3>
             <p className="text-gray-600 mb-4">
               Partner with us to create meaningful impact through CSR initiatives.
             </p>
-            <button className="bg-[#1B4332] text-white px-6 py-2 rounded-lg hover:bg-opacity-90 transition-colors">
-              Become a Partner
-            </button>
+            <Link
+              to="/contact"
+              className="inline-block bg-[#1B4332] text-white px-6 py-2 rounded-lg hover:bg-opacity-90 transition-colors"
+            >
+              Contact for Collaboration
+            </Link>
           </div>
         </div>
       </div>
     </div>
   );
+
 }
