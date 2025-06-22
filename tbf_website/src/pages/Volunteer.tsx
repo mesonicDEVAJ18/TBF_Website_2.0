@@ -1,6 +1,35 @@
 import { Calendar, Clock, MapPin, Heart, Users, BookOpen } from 'lucide-react';
+import { useRef, useState } from 'react';
+import emailjs from '@emailjs/browser';
 
 export function Volunteer() {
+  const formRef = useRef<HTMLFormElement>(null);
+  const [loading, setLoading] = useState(false);
+
+  const sendVolunteerForm = (e: React.FormEvent) => {
+    e.preventDefault();
+    setLoading(true);
+
+    emailjs
+      .sendForm(
+        'service_meq3eph',       // your service ID
+        'template_gov01yk',        // your template ID
+        formRef.current!,
+        'q_02bZITAYRc1wLmH'      // your public key
+      )
+      .then(
+        () => {
+          alert('Application submitted!');
+          formRef.current?.reset();
+          setLoading(false);
+        },
+        (error) => {
+          console.error(error.text);
+          alert('Failed to submit application.');
+          setLoading(false);
+        }
+      );
+  };
   return (
     <div className="container mx-auto py-16 px-4">
       <h1 className="text-4xl font-serif mb-8">Join us in making a difference</h1>
@@ -52,22 +81,22 @@ export function Volunteer() {
         
         <div className="bg-white p-8 rounded-lg shadow-lg">
           <h2 className="text-2xl font-serif mb-6">Volunteer Registration</h2>
-          <form className="space-y-4">
+          <form ref={formRef} onSubmit={sendVolunteerForm} className="space-y-4">
             <div>
               <label className="block text-sm font-medium mb-1">Full Name</label>
-              <input type="text" className="w-full p-2 border rounded" placeholder="Enter your name" />
+              <input name="full_name" type="text" className="w-full p-2 border rounded" placeholder="Enter your name" required />
             </div>
             <div>
               <label className="block text-sm font-medium mb-1">Email</label>
-              <input type="email" className="w-full p-2 border rounded" placeholder="Enter your email" />
+              <input name="email" type="email" className="w-full p-2 border rounded" placeholder="Enter your email" required />
             </div>
             <div>
               <label className="block text-sm font-medium mb-1">Phone</label>
-              <input type="tel" className="w-full p-2 border rounded" placeholder="Enter your phone number" />
+              <input name="phone" type="tel" className="w-full p-2 border rounded" placeholder="Enter your phone number" required />
             </div>
             <div>
               <label className="block text-sm font-medium mb-1">Areas of Interest</label>
-              <select className="w-full p-2 border rounded">
+              <select name="interest" className="w-full p-2 border rounded" required>
                 <option value="">Select an area</option>
                 <option>Food Distribution</option>
                 <option>Education Support</option>
@@ -77,7 +106,7 @@ export function Volunteer() {
             </div>
             <div>
               <label className="block text-sm font-medium mb-1">Availability</label>
-              <select className="w-full p-2 border rounded">
+              <select name="availability" className="w-full p-2 border rounded" required>
                 <option value="">Select availability</option>
                 <option>Weekdays</option>
                 <option>Weekends</option>
@@ -86,15 +115,22 @@ export function Volunteer() {
             </div>
             <div>
               <label className="block text-sm font-medium mb-1">Message</label>
-              <textarea 
-                className="w-full p-2 border rounded h-32" 
+              <textarea
+                name="message"
+                className="w-full p-2 border rounded h-32"
                 placeholder="Tell us about yourself and why you'd like to volunteer"
+                required
               ></textarea>
             </div>
-            <button className="w-full bg-[#1B4332] text-white py-3 rounded hover:bg-opacity-90 transition-colors">
-              Submit Application
+            <button
+              type="submit"
+              disabled={loading}
+              className="w-full bg-[#1B4332] text-white py-3 rounded hover:bg-opacity-90 transition-colors disabled:opacity-60"
+            >
+              {loading ? 'Submitting...' : 'Submit Application'}
             </button>
           </form>
+
         </div>
       </div>
     </div>
