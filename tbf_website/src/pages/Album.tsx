@@ -79,13 +79,13 @@ export default function Album() {
           A collection of cherished memories, captured and preserved. Click any card to view more.
         </p>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6">
           {photos.map((photo) => (
             <div
               key={photo.id}
               className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105 cursor-pointer"
               onClick={() => navigate(`/collage/${photo.id}`)}
-              style={{ aspectRatio: "16/9" }}
+              style={{ aspectRatio: "6/5" }}
             >
               {/* Image */}
               <img
