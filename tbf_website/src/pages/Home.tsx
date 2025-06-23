@@ -4,11 +4,11 @@ export function Home() {
   const updates = [
     {
       title: "TBF Mumbai",
-      content: "The Brijwasi Foundation is based in five major cities, one of them being Mumbai. We conduct drives regularly to feed impoverished children and stray animals. Our latest food drive in this chapter provided food to over 200 families. We’re eradicating hunger in India, one meal, one family, one city at a time. "
+      content: "The Brijwasi Foundation is based in five major cities, one of them being Mumbai. We conduct drives regularly to feed impoverished children and stray animals.  From food distribution drives to providing essential resources like grains, clean water, and clothes, we’re here to ensure no one sleeps hungry. Our latest food drive in this chapter provided food to over 200 families. We’re eradicating hunger in India, one meal, one family, one city at a time."
     },
     {
       title: "Actually Recruiting",
-      content: "We’re growing, and we need your help. Whether you're a student with a free weekend, a professional with skills to offer, or simply someone with the heart to serve — there’s a place for you at The Brijwasi Foundation."
+      content: "Obsessed with Instagram? Got a soft spot for social good?Then you’ll feel right at home on our Graphics Team. From capturing smiles during food drives to turning everyday moments with our kids into meaningful reels, you'll help bring our mission to life one post at a time.You’ll get hands-on with our work towards SDG 2 – Zero Hunger, grow your content game, and yes- your creations (and maybe even your face 👀) will show up on our social media platforms with 750+ followers.Come for the cause, stay for the creativity 💛Apply NOW!"
     },
     {
       title: "Recent Initiatives",

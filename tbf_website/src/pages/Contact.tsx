@@ -91,6 +91,7 @@ export function Contact() {
                 />
               </div>
             </div>
+            <p>Inviting non-profit organizations for collaborations</p>
           </div>
         </div>
 
