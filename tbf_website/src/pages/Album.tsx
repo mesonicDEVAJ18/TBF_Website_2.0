@@ -72,7 +72,7 @@ export default function Album() {
   ]
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-amber-50 to-green-50 py-4 px-4">
+    <div className="min-h-screen bg-amber-50 py-4 px-4">
       <div className="container mx-auto">
         <h1 className="text-4xl md:text-5xl font-serif mb-4 text-green-800">Captured Moments</h1>
         <p className="text-gray-700 mb-10 max-w-2xl">
@@ -95,7 +95,7 @@ export default function Album() {
               />
 
               {/* Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-br from-green-100 to-amber-100 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-center items-center p-6 text-center">
+              <div className="absolute inset-0 bg-bg-[#fdf8e4] opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-center items-center p-6 text-center">
                 <h3 className="text-2xl font-bold text-green-800 mb-2">{photo.title}</h3>
                 <p className="text-green-700 leading-relaxed text-sm md:text-base mb-2">{photo.description}</p>
                 {photo.date && (

@@ -20,7 +20,7 @@ export function Contact() {
       )
       .then(
         () => {
-          alert('Message sent!');
+          alert('Message sent! Look forward to our response.');
           formRef.current?.reset();
           setLoading(false);
         },
