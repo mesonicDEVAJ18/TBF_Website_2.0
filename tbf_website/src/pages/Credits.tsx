@@ -1,12 +1,12 @@
 import { Award, Users, Heart, Handshake } from 'lucide-react';
 const prishasingh = "/images/credits/prishasingh.jpg";
 const anshjagota = "/images/credits/anshjagota.jpg";
-const pavanimittal = "/images/credits/pavanimittal.jpg";
+// const pavanimittal = "/images/credits/pavanimittal.jpg";
 const nityasingh = "/images/credits/nityasingh.jpg";
 const dakshthakur = "/images/credits/dakshthakur.jpg";
 const jayeshbanerjee = "/images/credits/jayeshbanerjee.jpg";
 const mishasarin = "/images/credits/mishasarin.jpg";
-const anshikasharma = "/images/credits/anshikasharma.jpg";
+// const anshikasharma = "/images/credits/anshikasharma.jpg";
 const paridhidewan = "/images/credits/paridhidewan.jpg";
 const tiyasharma = "/images/credits/tiyasharma.jpg";
 const angelinamehra = "/images/credits/angelinamehra.jpg";
@@ -52,8 +52,8 @@ export function Credits() {
     ],
     Logistics: [
       { name: "Tiya Sharma", role: "Logistics Manager", image: tiyasharma },
-      { name: "Pavani Mittal", role: "Event Logistics", image: pavanimittal },
-      { name: "Anshika Sharma", role: "Event Logistics", image: anshikasharma },
+      // { name: "Pavani Mittal", role: "Event Logistics", image: pavanimittal },
+      // { name: "Anshika Sharma", role: "Event Logistics", image: anshikasharma },
       { name: "Paridhi Dewan", role: "Event Logistics", image: paridhidewan },
       { name: "Angelina Mehra", role: "Event Logistics", image: angelinamehra },
       { name: "Jhanak Goel", role: "Event Logistics", image: jhanakgoel },
