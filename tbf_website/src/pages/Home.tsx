@@ -54,12 +54,12 @@ export function Home() {
           <div className="grid md:grid-cols-2 gap-12">
             <div>
               <p className="text-lg mb-6">
-                Our team is committed to initiating drives as much as they can. We are truly proud of the initiatives taken so far:
+                 At The Brijwasi Foundation, we believe that meaningful change starts with small, consistent actions. Our team works passionately to lead initiatives that uplift underserved communities and bring us closer to our mission of Zero Hunger.
+                 We are truly proud of the initiatives taken so far:
               </p>
               <ul className="space-y-4 text-lg">
                 <li>• Food Distribution Programs</li>
                 <li>• Education Support</li>
-                <li>• Healthcare Camps</li>
                 <li>• Community Development</li>
               </ul>
             </div>
