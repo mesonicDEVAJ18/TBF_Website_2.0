@@ -70,8 +70,7 @@ function App() {
         <Route path="/donate" element={<Donate />} />
         <Route path="/volunteer" element={<Volunteer />} />
         <Route path="/album" element={<Album />} />
-        <Route path="/album/:albumId" element={<Collage />} />
-        <Route path="/collage/:photoId" element={<Collage />} />
+        <Route path="/album/:year" element={<Collage />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/credits" element={<Credits />} />
         <Route path="*" element={<h1 className="text-center mt-10 text-2xl">404 - Page Not Found</h1>} />

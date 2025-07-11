@@ -20,7 +20,7 @@ export function Home() {
     <div className="min-h-screen">
       <section className="relative h-[60vh] md:h-[80vh]">
         <img 
-          src="/distribution-image.jpg" 
+          src="/images/2024/3_2024.jpg" 
           alt="Foundation Distribution Drive"
           className="w-full h-full object-cover"
         />
@@ -64,7 +64,7 @@ export function Home() {
               </ul>
             </div>
             <img 
-              src="/team-image.jpg" 
+              src="/images/2024/2_2024.jpg" 
               alt="Team at work"
               className="rounded-lg shadow-xl"
             />

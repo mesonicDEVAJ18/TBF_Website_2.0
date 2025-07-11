@@ -1,111 +1,126 @@
 "use client"
 import { useNavigate } from "react-router-dom"
 
-interface Photo {
+interface AlbumProject {
   id: number
-  src: string
   title: string
   description: string
   date?: string
 }
 
+interface AlbumYear {
+  year: string
+  cover: string
+  projects: AlbumProject[]
+}
+
+// Replace this with your real data or load via API later
+const albumData: AlbumYear[] = [
+  {
+    year: "2023",
+    cover: "/images/2023/5_2023.jpg",
+    projects: [
+      {
+        id: 1,
+        title: "Our 1st Food drive",
+        description: "Heartfelt experience, the first drive of our NGO.",
+        date: "23 December 2023",
+      },
+      {
+        id: 2,
+        title: "Winter Drive '23",
+        description: "Donated winter clothes, expanded our efforts.",
+        date: "23 December 2023",
+      },
+    ],
+  },
+  {
+    year: "2024",
+    cover: "/images/2024/2_2024.jpg",
+    projects: [
+      {
+        id: 4,
+        title: "TBF Drive 4",
+        description: "3 drives across NCR: bhandara, dog drive, and ration kits.",
+        date: "22 May 2024",
+      },
+      {
+        id: 5,
+        title: "Hydration Drive",
+        description: "Served 600+ people with Roohafza drink at CP.",
+        date: "26 June 2024",
+      },
+      {
+        id: 6,
+        title: "Project Kitaab X TBF",
+        description: "Taught and fed 60 kids: Lahori Jeera and sweet corn.",
+        date: "7 July 2024",
+      },
+      {
+        id: 7,
+        title: "Diggin X TBF",
+        description: "Diggin provided food packets to the underprivileged.",
+        date: "16 July 2024",
+      },
+      {
+        id: 8,
+        title: "RHA X TBF",
+        description: "Robin Hood Army & TBF served hundreds with surplus food.",
+        date: "15 December 2024",
+      },
+    ],
+  },
+  {
+    year: "2025",
+    cover: "/images/2025/1_2025.jpg",
+    projects: [
+      {
+        id: 9,
+        title: "Project Sukh X TBF",
+        description: "Distributed food and stationery in low-income areas.",
+        date: "8 January 2025",
+      },
+    ],
+  },
+]
+
 export default function Album() {
   const navigate = useNavigate()
-
-  const photos: Photo[] = [
-    {
-      id: 1,
-      src: "/placeholder.svg?height=400&width=400",
-      title: "Our 1st Food drive",
-      description: "This was an heartfelt experience and we were thrilled to kick off with the very first drive of our NGO on 23rd December 2023.",
-      date: "23rd December 2023"
-    },
-    {
-      id: 2,
-      src: "/placeholder.svg?height=400&width=600",
-      title: "Winter Drive '23",
-      description: "This was an incredible opportunity to donate winter clothes and put smiles on people’s faces. We had entered a phase of growth and expansion during this period.",
-      date: "23 December 2023"
-    },
-    {
-      id: 4,
-      src: "/placeholder.svg?height=500&width=400",
-      title: "TBF Drive 4",
-      description: "We had organised 3 drives in Noida, Indirapuram and Gurgaon. In Noida, we took a major step and hosted a bhandara. In Indirapuram, A dog drive was initiated. In Gurgaon, our team distributed essential resources. Helped 20 families with monthly rashan along with 100+ kids.",
-      date: "22 May 2024"
-    },
-    {
-      id: 5,
-      src: "/placeholder.svg?height=500&width=400",
-      title: "Hydration Drive",
-      description: "The Brijwasi Foundation organized a successful hydration drive managed by Tiya with the help of Khushal, Vibhav, Reyna, and Akshita. They served 'chabeel,' a refreshing Roohafza milk-water drink. Over 600 people were served, spreading joy and relief in the community with help from the NDMC office at Connaught Place.",
-      date: "26 June 2024"
-    },
-    {
-      id: 6,
-      src: "/placeholder.svg?height=500&width=400",
-      title: "The Brijwasi Foundation X Project Kitaab: Feeding and Teaching Children",
-      description: "We collaborated with Project Kitaab to serve around 55–60 kids. Our dedicated volunteers provided engaging lessons and served Lahori Jeera and homemade sweet corn. The children's happiness and excitement made this collaboration a truly joyful and unforgettable experience.",
-      date: "7 July 2024"
-    },
-    {
-      id: 7,
-      src: "/placeholder.svg?height=500&width=400",
-      title: "Diggin X TBF",
-      description: "On the occasion of Diggin's birthday, they collaborated with The Brijwasi Foundation and generously provided food packets for the underprivileged. Their support helped us extend kindness and nourishment to those in need.",
-      date: "16 July 2024"
-    },
-    {
-      id: 8,
-      src: "/placeholder.svg?height=500&width=400",
-      title: "RHA X TBF",
-      description: "The Brijwasi Foundation collaborated with the Robin Hood Army — a volunteer-based organization that works to eliminate hunger by redistributing surplus food from restaurants and individuals to those in need. This joint initiative marked a powerful step towards our shared mission of zero hunger, as we united to serve hundreds of meals across the city, amplifying impact through collective action.",
-      date: "15 December 2024"
-    },
-    {
-      id: 9,
-      src: "/placeholder.svg?height=500&width=400",
-      title: "Project Sukh X TBF",
-      description: "The Brijwasi Foundation partnered with Project Sukh — a youth-led initiative committed to spreading happiness and well-being through grassroots outreach. Together, we visited low-income neighborhoods to distribute nutritious food and essential stationery supplies to children and families. This heartfelt collaboration brought smiles and support to underserved communities.",
-      date: "8 January 2025"
-    },
-  ]
 
   return (
     <div className="min-h-screen bg-amber-50 py-4 px-4">
       <div className="container mx-auto">
-        <h1 className="text-4xl md:text-5xl font-serif mb-4 text-green-800">Captured Moments</h1>
+        <h1 className="text-4xl md:text-5xl font-serif mb-6 text-green-800">Yearly Albums</h1>
         <p className="text-gray-700 mb-10 max-w-2xl">
-          A collection of cherished memories, captured and preserved. Click any card to view more.
+          Each album captures the spirit of a year full of meaningful work and beautiful moments.
         </p>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6">
-          {photos.map((photo) => (
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {albumData.map(({ year, cover, projects }) => (
             <div
-              key={photo.id}
-              className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105 cursor-pointer"
-              onClick={() => navigate(`/collage/${photo.id}`)}
-              style={{ aspectRatio: "6/5" }}
+              key={year}
+              onClick={() => navigate(`/album/${year}`)}
+              className="bg-white rounded-2xl shadow-lg hover:shadow-2xl border-l-4 border-green-600 cursor-pointer transition duration-300 overflow-hidden"
             >
-              {/* Image */}
               <img
-                src={photo.src}
-                alt={photo.title}
-                className="w-full h-full object-cover transition-opacity duration-500 group-hover:opacity-0"
+                src={cover}
+                alt={`Cover for ${year}`}
+                className="w-full h-48 object-cover"
               />
-
-              {/* Overlay */}
-              <div className="absolute inset-0 bg-bg-[#fdf8e4] opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-center items-center p-6 text-center">
-                <h3 className="text-2xl font-bold text-green-800 mb-2">{photo.title}</h3>
-                <p className="text-green-700 leading-relaxed text-sm md:text-base mb-2">{photo.description}</p>
-                {photo.date && (
-                  <p className="text-green-600 text-xs font-medium">{photo.date}</p>
-                )}
-                <div className="mt-3 text-green-600 text-sm font-medium">Click to explore more →</div>
+              <div className="p-6">
+                <h2 className="text-2xl font-bold text-green-800 mb-3">{year}</h2>
+                <ul className="list-disc list-inside text-green-700 text-sm space-y-1">
+                  {projects.map((project) => (
+                    <li key={project.id}>
+                      <span className="font-medium">{project.title}</span>
+                      {project.date && (
+                        <span className="text-green-600 text-xs"> — {project.date}</span>
+                      )}
+                    </li>
+                  ))}
+                </ul>
+                <p className="text-green-500 font-medium mt-4">Click to view full album →</p>
               </div>
-
-              {/* Decorative Border */}
-              <div className="absolute inset-0 border-4 border-green-200 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             </div>
           ))}
         </div>
