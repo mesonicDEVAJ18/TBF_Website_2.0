@@ -3,8 +3,8 @@ import { UpdateCard } from '../components/UpdateCard';
 export function Home() {
   const updates = [
     {
-      title: "TBF Mumbai",
-      content: "The Brijwasi Foundation is based in five major cities, one of them being Mumbai. We conduct drives regularly to feed impoverished children and stray animals.  From food distribution drives to providing essential resources like grains, clean water, and clothes, we’re here to ensure no one sleeps hungry. Our latest food drive in this chapter provided food to over 200 families. We’re eradicating hunger in India, one meal, one family, one city at a time."
+      title: "22nd may drives",
+      content: "On 22nd May 2025, we organized food drives at Greater Noida West and Indirapuram, where our team distributed over 200 meals and beverages. These drives were a small step toward spreading care and ensuring that no one is left unheard or unfed."
     },
     {
       title: "Actually Recruiting",

@@ -16,7 +16,7 @@ export default function Collage() {
   const imageCountByYear: Record<string, number> = {
     "2023": 6,
     "2024": 4,
-    "2025": 6,
+    "2025": 9,
     default: 3,
   }
 
