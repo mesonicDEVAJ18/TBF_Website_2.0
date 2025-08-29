@@ -1,0 +1,14 @@
+# robots.txt for The Brijwasi Foundation
+
+User-agent: *
+Allow: /
+
+# Prevent search engines from indexing static assets
+Disallow: /assets/
+Disallow: /static/
+
+# Prevent indexing of error pages
+Disallow: /404
+
+# Sitemap location
+Sitemap: https://thebrijwasifoundation.in/sitemap.xml
