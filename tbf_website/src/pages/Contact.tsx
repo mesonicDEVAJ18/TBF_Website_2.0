@@ -82,7 +82,7 @@ export function Contact() {
                 <SocialIcon
                   icon={
                     <img
-                      src="/images/gmail.png"
+                      src="/images/gmail.webp"
                       alt="Gmail"
                       style={{ width: 24, height: 'auto', verticalAlign: 'middle' }}
                     />
@@ -138,6 +138,7 @@ function SocialIcon({ icon, link }: { icon: React.ReactNode; link: string }) {
       className="hover:text-gray-200 transition-colors transform hover:scale-110 duration-200"
     >
       {icon}
+      <span className="sr-only">Follow us on Social</span>
     </a>
   );
 }

@@ -18,7 +18,7 @@ interface AlbumYear {
 const albumData: AlbumYear[] = [
   {
     year: "2023",
-    cover: "/images/2023/5_2023.jpg",
+    cover: "/images/2023/5_2023.webp",
     projects: [
       {
         id: 1,
@@ -36,7 +36,7 @@ const albumData: AlbumYear[] = [
   },
   {
     year: "2024",
-    cover: "/images/2024/2_2024.jpg",
+    cover: "/images/2024/2_2024.webp",
     projects: [
       {
         id: 4,
@@ -72,7 +72,7 @@ const albumData: AlbumYear[] = [
   },
   {
     year: "2025",
-    cover: "/images/2025/1_2025.jpg",
+    cover: "/images/2025/1_2025.webp",
     projects: [
       {
         id: 9,

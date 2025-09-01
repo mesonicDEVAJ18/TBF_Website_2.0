@@ -26,7 +26,7 @@ export default function Collage() {
   useEffect(() => {
     const generatedPhotos: CollagePhoto[] = Array.from({ length: imageCount }, (_, i) => ({
       id: i + 1,
-      src: `/images/${albumYear}/${i + 1}_${albumYear}.jpg`,
+      src: `/images/${albumYear}/${i + 1}_${albumYear}.webp`,
       alt: `Photo ${i + 1}`,
       caption: `Memory ${i + 1}`,
     }))

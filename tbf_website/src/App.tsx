@@ -59,7 +59,7 @@ function App() {
         <title>{`${pageTitle} - The Brijwasi Foundation`}</title>
         <meta name="description" content={metaDescription} />
         <meta name="keywords" content={metaKeywords} />
-        <link rel="icon" type="image/png" href="/images/logo.png" />
+        <link rel="icon" type="image/webp" href="/images/logo.webp" />
       </Helmet>
 
       <Navigation />
